@@ -5,6 +5,7 @@ const CardList = ({robots})=> {
      return (
        <div>
     {
+    // Map Method
      robots.map((users , index) =>{
        const {id,name,email,} = users;
         return (<Card 
